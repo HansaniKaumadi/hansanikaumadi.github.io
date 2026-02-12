@@ -17,7 +17,7 @@ repository               : "hansanikaumadi/hansanikaumadi.github.io"
 # -------------------------------
 
 author:
-  avatar           : "profile.png"   # Make sure profile.png is inside /images/
+  avatar           : "Hansani Kaumadi.jpg"   # Make sure profile.png is inside /images/
   name             : "Hansani Kaumadi"
   pronouns         :
   bio              : "Final-year undergraduate interested in Computational Biology, Genomics, and AI-driven biological research."
