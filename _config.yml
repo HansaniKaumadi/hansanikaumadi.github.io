@@ -7,7 +7,7 @@ site_theme               : "default"
 title                    : "Hansani Kaumadi"
 title_separator          : "-"
 name                     : &name "Hansani Kaumadi"
-description              : &description "Undergraduate researcher interested in Computational Biology, Genomics, and AI."
+description              : &description "Bio Medical Engineering Undergraduate interested in Computational Biology, Genomics, and Machine Learning."
 url                      : "https://hansanikaumadi.github.io"
 baseurl                  : ""
 repository               : "hansanikaumadi/hansanikaumadi.github.io"
@@ -24,7 +24,7 @@ author:
   location         : "Sri Lanka"
   employer         :
   uri              :
-  email            : "yourprofessionalemail@gmail.com"
+  email            : "mhansaniky@gmail.com"
 
   # Academic profiles (leave blank if you don't have yet)
   academia         :
