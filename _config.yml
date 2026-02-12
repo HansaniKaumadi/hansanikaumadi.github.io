@@ -3,7 +3,7 @@
 # -------------------------------
 
 locale                   : "en-US"
-site_theme               : "default"
+site_theme               : "mint"
 title                    : "Hansani Kaumadi"
 title_separator          : "-"
 name                     : &name "Hansani Kaumadi"
