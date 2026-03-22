@@ -23,4 +23,4 @@ Prefer browsing online? No problem! You can view my CV directly in your browser:
 
 ---
 
-💡 **Tip:** Your CV highlights my work in Computational Biology, Genomics, and AI-driven research. This is the best way to see my projects, publications and technical skills at a glance.
+Explore how I combine data, algorithms and biology to uncover insights — my projects, publications and skills are all laid out here.
