@@ -7,15 +7,20 @@ author_profile: true
 category: "CV"
 ---
 
-## Download CV
+## My Curriculum Vitae
 
-You can download my CV here:
+For a detailed overview of my research experience, projects and academic journey, you can download my CV below:
 
-[Download CV](../files/Hansani_Kaumadi_CV.pdf)
+📄 [**Download CV (PDF)**](../files/Hansani_Kaumadi_CV.pdf)
 
 ---
 
-## View CV Inline
+## Explore My CV Online
 
-<iframe src="../files/Hansani_Kaumadi_CV.pdf" width="100%" height="800px">
-</iframe>
+Prefer browsing online? No problem! You can view my CV directly in your browser:
+
+<iframe src="../files/Hansani_Kaumadi_CV.pdf" width="100%" height="800px" style="border: 2px solid #ccc; border-radius: 8px;"></iframe>
+
+---
+
+💡 **Tip:** Your CV highlights my work in Computational Biology, Genomics, and AI-driven research. This is the best way to see my projects, publications and technical skills at a glance.
