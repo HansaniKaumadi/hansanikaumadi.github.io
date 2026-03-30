@@ -1,0 +1,305 @@
+/* ==========================================================================
+   HOME PAGE ANIMATIONS & COMPONENTS
+   ========================================================================== */
+
+/* ---------- Keyframes ---------- */
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(28px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInLeft {
+  from { opacity: 0; transform: translateX(-24px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50%       { opacity: 0; }
+}
+
+@keyframes shimmer {
+  0%   { background-position: -400px 0; }
+  100% { background-position: 400px 0; }
+}
+
+@keyframes barFill {
+  from { width: 0; }
+}
+
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(127, 90, 240, 0.0); }
+  50%       { box-shadow: 0 0 18px 4px rgba(127, 90, 240, 0.25); }
+}
+
+/* ---------- Hero Section ---------- */
+
+.home-hero {
+  padding: 2.2em 0 1.6em;
+  animation: fadeInUp 0.7s ease both;
+
+  .hero-greeting {
+    font-size: 1.05em;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    opacity: 0.6;
+    margin-bottom: 0.3em;
+  }
+
+  h1.hero-name {
+    font-size: 2.4em;
+    font-weight: 700;
+    margin: 0 0 0.15em;
+    line-height: 1.15;
+  }
+
+  .hero-tagline {
+    font-size: 1.1em;
+    opacity: 0.75;
+    margin-bottom: 1.2em;
+
+    .rotating-word {
+      font-weight: 600;
+      color: #7f5af0;
+      border-right: 2px solid #7f5af0;
+      padding-right: 3px;
+      animation: blink 1s step-end infinite;
+    }
+  }
+
+  .hero-desc {
+    font-size: 1em;
+    line-height: 1.75;
+    max-width: 680px;
+    opacity: 0.88;
+    animation: fadeInUp 0.7s 0.15s ease both;
+  }
+}
+
+/* ---------- Section Wrapper ---------- */
+
+.home-section {
+  margin: 2.6em 0;
+  animation: fadeInUp 0.7s ease both;
+
+  &:nth-child(2) { animation-delay: 0.1s; }
+  &:nth-child(3) { animation-delay: 0.2s; }
+  &:nth-child(4) { animation-delay: 0.3s; }
+  &:nth-child(5) { animation-delay: 0.4s; }
+
+  .home-section__title {
+    font-size: 0.72em;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    opacity: 0.5;
+    margin-bottom: 1em;
+    display: flex;
+    align-items: center;
+    gap: 0.6em;
+
+    &::after {
+      content: "";
+      flex: 1;
+      height: 1px;
+      background: currentColor;
+      opacity: 0.18;
+    }
+  }
+}
+
+/* ---------- Research Interest Cards ---------- */
+
+.interest-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(175px, 1fr));
+  gap: 0.85em;
+}
+
+.interest-card {
+  border: 1px solid rgba(127, 90, 240, 0.2);
+  border-radius: 12px;
+  padding: 1.1em 1em;
+  transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+  cursor: default;
+  animation: fadeInUp 0.55s ease both;
+
+  @for $i from 1 through 8 {
+    &:nth-child(#{$i}) { animation-delay: #{$i * 0.07}s; }
+  }
+
+  .interest-card__icon {
+    font-size: 1.7em;
+    margin-bottom: 0.3em;
+    display: block;
+  }
+
+  .interest-card__title {
+    font-size: 0.85em;
+    font-weight: 600;
+    line-height: 1.3;
+  }
+
+  &:hover {
+    transform: translateY(-4px) scale(1.02);
+    border-color: rgba(127, 90, 240, 0.55);
+    box-shadow: 0 8px 24px rgba(127, 90, 240, 0.15);
+  }
+}
+
+/* ---------- Skill Bars ---------- */
+
+.skill-group {
+  margin-bottom: 1.4em;
+
+  .skill-group__label {
+    font-size: 0.78em;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    opacity: 0.55;
+    margin-bottom: 0.5em;
+  }
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45em;
+}
+
+.skill-tag {
+  display: inline-block;
+  font-size: 0.8em;
+  font-weight: 500;
+  padding: 0.32em 0.75em;
+  border-radius: 999px;
+  border: 1px solid rgba(127, 90, 240, 0.3);
+  background: rgba(127, 90, 240, 0.07);
+  transition: background 0.18s, border-color 0.18s, transform 0.18s;
+  animation: fadeInUp 0.5s ease both;
+
+  @for $i from 1 through 20 {
+    &:nth-child(#{$i}) { animation-delay: #{$i * 0.04}s; }
+  }
+
+  &:hover {
+    background: rgba(127, 90, 240, 0.18);
+    border-color: rgba(127, 90, 240, 0.6);
+    transform: translateY(-2px);
+  }
+}
+
+/* ---------- Leadership Timeline ---------- */
+
+.leadership-org {
+  margin-bottom: 1.6em;
+  padding-left: 1em;
+  border-left: 2px solid rgba(127, 90, 240, 0.25);
+  animation: fadeInLeft 0.55s ease both;
+
+  @for $i from 1 through 8 {
+    &:nth-child(#{$i}) { animation-delay: #{$i * 0.08}s; }
+  }
+
+  .leadership-org__name {
+    font-size: 0.9em;
+    font-weight: 700;
+    margin-bottom: 0.3em;
+  }
+
+  .leadership-role {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-size: 0.82em;
+    opacity: 0.8;
+    padding: 0.18em 0;
+    gap: 1em;
+
+    .role-title {
+      flex: 1;
+    }
+    .role-date {
+      white-space: nowrap;
+      opacity: 0.55;
+      font-size: 0.92em;
+    }
+  }
+}
+
+/* ---------- Callout Card ---------- */
+
+.callout-card {
+  border: 1px solid rgba(127, 90, 240, 0.3);
+  border-radius: 14px;
+  padding: 1.3em 1.5em;
+  display: flex;
+  align-items: center;
+  gap: 1.2em;
+  text-decoration: none !important;
+  transition: transform 0.22s ease, box-shadow 0.22s ease;
+  animation: pulse-glow 3s ease-in-out infinite, fadeInUp 0.7s ease both;
+
+  .callout-card__emoji { font-size: 2em; flex-shrink: 0; }
+
+  .callout-card__body {
+    flex: 1;
+  }
+
+  .callout-card__title {
+    font-size: 0.93em;
+    font-weight: 700;
+    margin-bottom: 0.2em;
+  }
+
+  .callout-card__sub {
+    font-size: 0.8em;
+    opacity: 0.65;
+  }
+
+  .callout-card__arrow {
+    font-size: 1.2em;
+    opacity: 0.45;
+    transition: transform 0.2s;
+    flex-shrink: 0;
+  }
+
+  &:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 30px rgba(127, 90, 240, 0.2);
+
+    .callout-card__arrow { transform: translateX(4px); opacity: 0.9; }
+  }
+}
+
+/* ---------- Cert Pills ---------- */
+
+.cert-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+
+  li {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.6em;
+    font-size: 0.85em;
+    padding: 0.4em 0;
+    border-bottom: 1px solid rgba(128,128,128,0.1);
+    animation: fadeInUp 0.5s ease both;
+
+    @for $i from 1 through 15 {
+      &:nth-child(#{$i}) { animation-delay: #{$i * 0.05}s; }
+    }
+
+    &:last-child { border-bottom: none; }
+
+    .cert-provider {
+      font-size: 0.8em;
+      opacity: 0.5;
+      margin-left: auto;
+      white-space: nowrap;
+    }
+  }
+}
