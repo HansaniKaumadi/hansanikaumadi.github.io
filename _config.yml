@@ -4,20 +4,20 @@
 
 locale                   : "en-US"
 site_theme               : "contrast"
-title                    : "Hansani Kaumadi."
+title                    : "Hansani Kaumadi"
 title_separator          : "-"
 name                     : &name "Hansani Kaumadi"
 description              : &description "Bio Medical Engineering Undergraduate interested in Computational Biology, Genomics, and Machine Learning."
 url                      : "https://hansanikaumadi.github.io"
 baseurl                  : ""
-repository               : "hansanikaumadi/hansanikaumadi.github.io"
+repository               : "HansaniKaumadi/hansanikaumadi.github.io"
 
 # -------------------------------
 # Author Sidebar Information
 # -------------------------------
 
 author:
-  avatar           : "Hansani Kaumadi.jpg"   # Make sure profile.png is inside /images/
+  avatar           : "hansani_kaumadi.jpg"   # Renamed to remove spaces
   name             : "Hansani Kaumadi"
   pronouns         :
   bio              : "Final-year undergraduate interested in Computational Biology, Genomics and AI-driven biological research."

@@ -1,56 +1,180 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Hansani Kaumadi"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+<div class="home-hero">
+  <p class="hero-greeting">👋 Hello, I'm</p>
+  <h1 class="hero-name">Hansani Kaumadi</h1>
+  <p class="hero-tagline">
+    Biomedical Engineer passionate about
+    <span class="rotating-word" id="rotating-word">Computational Biology</span>
+  </p>
+  <p class="hero-desc">
+    Final-year Biomedical Engineering undergraduate at the University of Moratuwa, Sri Lanka.
+    I bridge the gap between biology and data science — applying machine learning, genomics, and
+    computational modelling to solve real-world medical challenges. From decoding Alzheimer's
+    molecular pathways to classifying ADHD vs. ASD with EEG signals, I love turning complex
+    biological data into actionable insights.
+  </p>
+</div>
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+<div class="home-section">
+  <p class="home-section__title">Research Interests</p>
+  <div class="interest-grid">
+    <div class="interest-card">
+      <span class="interest-card__icon">🧬</span>
+      <span class="interest-card__title">Computational Genomics</span>
+    </div>
+    <div class="interest-card">
+      <span class="interest-card__icon">🧠</span>
+      <span class="interest-card__title">Neuroscience & EEG Analysis</span>
+    </div>
+    <div class="interest-card">
+      <span class="interest-card__icon">🤖</span>
+      <span class="interest-card__title">Medical AI & ML</span>
+    </div>
+    <div class="interest-card">
+      <span class="interest-card__icon">💊</span>
+      <span class="interest-card__title">Computational Drug Design</span>
+    </div>
+    <div class="interest-card">
+      <span class="interest-card__icon">🔬</span>
+      <span class="interest-card__title">Molecular Dynamics</span>
+    </div>
+    <div class="interest-card">
+      <span class="interest-card__icon">📊</span>
+      <span class="interest-card__title">Biomedical Signal Processing</span>
+    </div>
+    <div class="interest-card">
+      <span class="interest-card__icon">🌐</span>
+      <span class="interest-card__title">Bioinformatics</span>
+    </div>
+    <div class="interest-card">
+      <span class="interest-card__icon">📡</span>
+      <span class="interest-card__title">Embedded Biomedical Systems</span>
+    </div>
+  </div>
+</div>
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+<div class="home-section">
+  <p class="home-section__title">Technical Skills</p>
+  <div class="skill-group">
+    <div class="skill-group__label">Programming Languages</div>
+    <div class="skill-tags">
+      <span class="skill-tag">🐍 Python</span>
+      <span class="skill-tag">⚙️ C++</span>
+      <span class="skill-tag">🔵 C</span>
+      <span class="skill-tag">📐 MATLAB</span>
+      <span class="skill-tag">🌐 JavaScript</span>
+      <span class="skill-tag">📊 R</span>
+    </div>
+  </div>
+  <div class="skill-group">
+    <div class="skill-group__label">Frameworks & Libraries</div>
+    <div class="skill-tags">
+      <span class="skill-tag">🔥 PyTorch</span>
+      <span class="skill-tag">🧮 TensorFlow</span>
+      <span class="skill-tag">🔢 NumPy</span>
+      <span class="skill-tag">🤖 Scikit-learn</span>
+      <span class="skill-tag">🧬 BioPython</span>
+    </div>
+  </div>
+  <div class="skill-group">
+    <div class="skill-group__label">Tools & Software</div>
+    <div class="skill-tags">
+      <span class="skill-tag">💻 VSCode</span>
+      <span class="skill-tag">🖱️ Cursor</span>
+      <span class="skill-tag">📈 RStudio</span>
+      <span class="skill-tag">🔌 Altium Designer</span>
+      <span class="skill-tag">🛠️ SolidWorks</span>
+      <span class="skill-tag">🔁 NodeRed</span>
+      <span class="skill-tag">⚡ EasyEDA</span>
+      <span class="skill-tag">🧪 Wokwi</span>
+    </div>
+  </div>
+  <div class="skill-group">
+    <div class="skill-group__label">Other</div>
+    <div class="skill-tags">
+      <span class="skill-tag">🐙 GitHub</span>
+      <span class="skill-tag">📟 Arduino</span>
+      <span class="skill-tag">🍓 Raspberry Pi</span>
+      <span class="skill-tag">📝 LaTeX</span>
+      <span class="skill-tag">📄 Markdown</span>
+    </div>
+  </div>
+</div>
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+<div class="home-section">
+  <p class="home-section__title">Featured Post</p>
+  <a href="/posts/2026/03/alzheimers-computational-study/" class="callout-card">
+    <span class="callout-card__emoji">🧠</span>
+    <div class="callout-card__body">
+      <div class="callout-card__title">Decoding the 'Molecular Scavenger': How Computational Science Fights Alzheimer's</div>
+      <div class="callout-card__sub">QM/MM simulations · AlphaFold · IDE enzyme · ATP allosteric regulation</div>
+    </div>
+    <span class="callout-card__arrow">→</span>
+  </a>
+</div>
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+<div class="home-section">
+  <p class="home-section__title">Leadership & Volunteer Experience</p>
+  <div class="leadership-org">
+    <div class="leadership-org__name">🏛️ IEEE EMBS — University of Moratuwa</div>
+    <div class="leadership-role"><span class="role-title">Vice Chairperson</span><span class="role-date">2025 – Present</span></div>
+    <div class="leadership-role"><span class="role-title">Co-Chair – Brainstorm 2025</span><span class="role-date">2024 – 2025</span></div>
+    <div class="leadership-role"><span class="role-title">Organizing Committee – Brainstorm 2024</span><span class="role-date">2024</span></div>
+  </div>
+  <div class="leadership-org">
+    <div class="leadership-org__name">🌍 AIESEC in Sri Lanka</div>
+    <div class="leadership-role"><span class="role-title">Account Manager – Business Development</span><span class="role-date">2025 – 2026</span></div>
+  </div>
+  <div class="leadership-org">
+    <div class="leadership-org__name">🌏 AIESEC in University of Moratuwa</div>
+    <div class="leadership-role"><span class="role-title">Local Committee Vice President – Outgoing Global Teacher</span><span class="role-date">2024 – 2025</span></div>
+    <div class="leadership-role"><span class="role-title">Event Manager – Beauty Beyond Ceylon 2.0</span><span class="role-date">2024</span></div>
+    <div class="leadership-role"><span class="role-title">Facilitating Member – LEAD CS 11.0 & 10.0</span><span class="role-date">2023 – 2025</span></div>
+    <div class="leadership-role"><span class="role-title">Team Leader – Customer Relations (Outgoing GT&T Winter 23.24)</span><span class="role-date">2023 – 2024</span></div>
+  </div>
+  <div class="leadership-org">
+    <div class="leadership-org__name">🔌 Electronic Club — University of Moratuwa</div>
+    <div class="leadership-role"><span class="role-title">Member of Board of Editors</span><span class="role-date">2025 – Present</span></div>
+    <div class="leadership-role"><span class="role-title">OC Lead – Events – SLRC 2025</span><span class="role-date">2025</span></div>
+    <div class="leadership-role"><span class="role-title">Sub Editor</span><span class="role-date">2024 – 2025</span></div>
+  </div>
+</div>
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+<div class="home-section">
+  <p class="home-section__title">Certifications</p>
+  <ul class="cert-list">
+    <li>🩺 AI for Medical Diagnosis <span class="cert-provider">DeepLearning.AI · Dec 2025</span></li>
+    <li>📈 AI for Medical Prognosis <span class="cert-provider">DeepLearning.AI · Jan 2026</span></li>
+    <li>🧬 Introduction to Genomic Technologies <span class="cert-provider">Johns Hopkins · Dec 2025</span></li>
+    <li>🐍 Python for Genomic Data Science <span class="cert-provider">Johns Hopkins · Jan 2026</span></li>
+    <li>🔬 Algorithms for DNA Sequencing <span class="cert-provider">Johns Hopkins · Feb 2026</span></li>
+    <li>🤖 Supervised Machine Learning: Regression & Classification <span class="cert-provider">DeepLearning.AI · Jun 2024</span></li>
+    <li>🧠 Advanced Learning Algorithms <span class="cert-provider">DeepLearning.AI · Sep 2024</span></li>
+  </ul>
+</div>
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
-
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
-
-**Markdown generator**
-
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+<script>
+(function() {
+  const words = ["Computational Biology", "Genomics", "Medical AI", "Molecular Dynamics", "Bioinformatics", "Biomedical Engineering"];
+  let idx = 0;
+  const el = document.getElementById("rotating-word");
+  if (!el) return;
+  setInterval(() => {
+    el.style.opacity = "0";
+    setTimeout(() => {
+      idx = (idx + 1) % words.length;
+      el.textContent = words[idx];
+      el.style.opacity = "1";
+    }, 350);
+  }, 2800);
+  el.style.transition = "opacity 0.35s ease";
+})();
+</script>
