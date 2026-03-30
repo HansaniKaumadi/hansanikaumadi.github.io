@@ -1,6 +1,7 @@
 ---
 title: "Decoding the 'Molecular Scavenger': How Computational Science Fights Alzheimer’s"
 date: 2026-03-30
+permalink: /posts/2026/03/alzheimers-computational-study/
 layout: single
 author_profile: true
 ---
